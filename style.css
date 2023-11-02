@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  width: 100vw;
+  min-width: 1200px;
+  height: 100vh;
+  min-height: 1260px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8b8c89;
+  font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
+}
+a {
+  color: #e7ecef;
+  text-decoration: none;
+  font-size: x-large;
+  margin-right: 15px;
+  cursor: pointer;
+}
+#titlesDesc {
+  text-align: center;
+}
+#treeHolder {
+  display: flex;
+  flex-direction: column;
+}

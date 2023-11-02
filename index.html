@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Treemap Diagram</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="links">
+          <a class="dataSet" data-dataset="videogames">Video Game</a
+          ><a class="dataSet" data-dataset="movies"> Movies</a
+          ><a class="dataSet" data-dataset="kickstarter"> Kickstarter</a>
+        </div>
+        <div id="titlesDesc">
+          <h1 id="title"></h1>
+          <h3 id="description"></h3>
+        </div>
+      </div>
+      <div id="treeHolder"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
